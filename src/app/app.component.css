@@ -1,0 +1,10 @@
+.ng-content {
+    overflow: auto;
+    height: calc(100% - 100px);
+    padding: 10px;
+    padding-left: 240px;
+}
+
+.hidden-menu-content {
+    padding-left: 10px;
+}

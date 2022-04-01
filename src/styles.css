@@ -1,1 +1,80 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, “Segoe UI”, Roboto, Helvetica, Arial, sans-serif, “Apple Color Emoji”, “Segoe UI Emoji”, “Segoe UI Symbol”;
+}
+.np-menubar {
+    background-color: #2872B4;
+    height: calc(100% - 100px);
+    overflow: auto;
+    border: none !important;
+    padding: 0px !important;
+    margin-top: 50px;
+    width: 230px !important;
+}
+
+.theme-blue {
+    --main-background: #f5f5f5;
+    --header-footer-color: #ffffff;
+    --header-footer-bg-color: #2d5394;
+    --header-footer-bg-color2: #2d5394;
+    --menubar-background: #839de2;
+    --menubar-color: #f5f5f5;
+    --active-menu-color: #ffffff;
+}
+
+.p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {
+    background: #ffffff;
+    border-color: #3B82F6;
+    color: #3B82F6;
+    padding: 1.25rem;
+    font-weight: 700;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.p-tabview .p-tabview-nav li .p-tabview-nav-link {
+      border: solid #dee2e6;
+    border-width: 0 0 2px 0;
+    border-color: transparent transparent #dee2e6 transparent;
+    background: #ffffff;
+    color: #6c757d;
+    padding: 1.25rem;
+    font-weight: 700;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    transition: box-shadow 0.2s;
+    margin: 0 0 -2px 0;
+}
+.p-tabview .p-tabview-nav {
+    background: #ffffff;
+    border: 1px solid #dee2e6;
+    border-width: 0 0 2px 0;
+}
+
+.p-tabview-nav {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    flex: 1 1 auto;
+}
+
+.overview-box-1 .p-card-body {
+    background-color: #F39611;
+}
+.overview-box-2 .p-card-body {
+    background-color: #326DDF;
+}
+.overview-box-3 .p-card-body {
+    background-color: #7DC931;
+}
+
+.p-card-body{
+  padding: 1em;
+}
+
+@media screen and (min-width: 40.063em){
+.ui-md-3 {
+    width: 25%;
+}
+}

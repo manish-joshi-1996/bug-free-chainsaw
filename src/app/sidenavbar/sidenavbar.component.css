@@ -1,0 +1,16 @@
+
+
+.np-menu li ul {
+    display: block;
+}
+
+.np-menu li a {
+    color: #fff;
+    font-size: 18px;
+    padding: 8px;
+}
+.np-menu {
+    padding: 5px;
+    margin: 0px;
+}
+

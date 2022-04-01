@@ -1,0 +1,27 @@
+.ng-header {
+    height: 50px;
+    background-color: #0772B3;
+    color: #fff;
+}
+
+.ng-header-left {
+        width: 100px;
+    }
+
+.left{
+  float: left;
+}    
+
+.toggle-menu-button {
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    /* background-color: var(--menubar-background); */
+}
+
+.icon {
+    line-height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+}
